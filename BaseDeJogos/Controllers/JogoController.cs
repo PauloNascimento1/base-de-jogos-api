@@ -61,7 +61,7 @@ namespace BaseDeJogos.Controllers
 
         public IActionResult AtualizarJogo(JogoModel jogo)
         {
-            var atualizaJogo = _jogoService.AtualizarJogo;
+            var atualizaJogo = _jogoService.AtualizarJogo(jogo);
             return Ok(atualizaJogo);
         }
         

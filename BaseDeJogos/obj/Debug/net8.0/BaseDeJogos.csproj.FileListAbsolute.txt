@@ -102,3 +102,4 @@ C:\cursoC#\BaseDeJogos\BaseDeJogos\obj\Debug\net8.0\refint\BaseDeJogos.dll
 C:\cursoC#\BaseDeJogos\BaseDeJogos\obj\Debug\net8.0\BaseDeJogos.pdb
 C:\cursoC#\BaseDeJogos\BaseDeJogos\obj\Debug\net8.0\BaseDeJogos.genruntimeconfig.cache
 C:\cursoC#\BaseDeJogos\BaseDeJogos\obj\Debug\net8.0\ref\BaseDeJogos.dll
+C:\cursoC#\BaseDeJogos\BaseDeJogos\obj\Debug\net8.0\BaseDeJogos.sourcelink.json
