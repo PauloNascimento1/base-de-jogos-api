@@ -401,7 +401,7 @@ FodyWeavers.xsd
 
 # End of https://www.toptal.com/developers/gitignore/api/csharp
 
-BaseDeJogos.sln
+
 BaseDeJogos/bin/
 BaseDeJogos/obj/
 BaseDeJogos/appsettings.Development.json
