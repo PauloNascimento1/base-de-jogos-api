@@ -11,10 +11,10 @@ namespace BaseDeJogos.Controllers
     [ApiController]
     public class JogoController : ControllerBase
     {
-        private readonly JogoService _jogoService;
+        private readonly IJogoService _jogoService;
         
 
-        public JogoController(JogoService jogoService)
+        public JogoController(IJogoService jogoService)
         {
             _jogoService = jogoService;
             

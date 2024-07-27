@@ -10,7 +10,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<JogoService>();
+builder.Services.AddScoped<IJogoService,JogoService>();
 
 var connectionString = builder.Configuration.GetConnectionString("DbConnectionMySql");
 
@@ -35,3 +35,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
